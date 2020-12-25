@@ -20,7 +20,7 @@ func New(input string) *Lexer {
 
 func (l *Lexer) readChar() {
 	if l.readPosition >= len(l.input) {
-		l.ch = 0 // ascii for 'nul'
+		l.ch = 0 // ascii fzor 'nul'
 	} else {
 		l.ch = l.input[l.readPosition]
 	}
